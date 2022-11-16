@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow: hidden;
+}
+
+#background {
+  height: 47vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vw;
+  text-align: center;
+}
+
+#weather {
+  font-family: "Syne Mono";
+}
+
+#sarea {
+  display: flex;
+  flex-direction: column;
+}
+
+#sarea input {
+  font-family: "Syne Mono";
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-size: 100%;
+  padding: 8px;
+}
+
+#sarea button {
+  font-family: "Syne Mono";
+  margin-top: 4%;
+  width: 70%;
+  margin: 5% auto;
+  text-align: center;
+}
+
+#name {
+  font-size: 250%;
+}
+
+#tempdiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+#temp {
+  font-size: 200%;
+}
+
+#cloud {
+  display: flex;
+  align-items: center;
+}
+
+#icon {
+  width: 100%;
+}
